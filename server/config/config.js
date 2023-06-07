@@ -1,6 +1,7 @@
+
 module.exports = {
     development: {
-        connectionString: 'mongodb+srv://BookstoreApp:BookStoreApp2023@cluster0.vekypmo.mongodb.net/BookStore?retryWrites=true'
+        connectionString: `${process.env.MONGO_DB}`
     },
     production: {
 
