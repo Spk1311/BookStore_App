@@ -1,5 +1,5 @@
 <div class="form create-book-form">
-  <form #formDir="ngForm" [formGroup]="createBookForm" (ngSubmit)="onSubmit()">
+  <form #formDir="ngForm" [formGroup] = "createBookForm" (ngSubmit)="onSubmit()">
     <h1>Add new Book</h1>
     <div class="form-field">
       <input type="text" class="title" name="title" placeholder="Book Title" formControlName="title" />

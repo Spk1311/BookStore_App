@@ -1,6 +1,6 @@
 module.exports = {
     development: {
-        connectionString: 'mongodb://localhost:27017/BookStore'
+        connectionString: 'mongodb+srv://BookstoreApp:BookStoreApp2023@cluster0.vekypmo.mongodb.net/BookStore?retryWrites=true'
     },
     production: {
 
