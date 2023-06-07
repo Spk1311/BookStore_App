@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 import { ServerResponse } from '../models/server-response.model';
 import { Comment } from '../models/comment.model';
 
-const baseUrl = 'http://localhost:8000/comment';
+const baseUrl = 'https://book-store-app-backend.onrender.com/comment';
 const addCommentEndpoint = '/add/';
 const editCommentEndpoint = '/edit/';
 const deleteCommentEndpoint = '/delete/';

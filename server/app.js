@@ -2,7 +2,7 @@ const EXPRESS = require('express');
 
 const CONFIG = require('./config/config');
 
-const PORT = 8000;
+const PORT = 8000 ;
 let env = 'development';
 
 const APP = EXPRESS();

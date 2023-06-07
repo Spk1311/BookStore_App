@@ -12,8 +12,8 @@ import { HttpClient } from '@angular/common/http';
 import { ServerResponse } from '../models/server-response.model';
 import { Cart } from '../models/cart.model';
 
-const baseUrl = 'http://localhost:8000/user/cart';
-const getCartSizeEndpoint = 'http://localhost:8000/cart/getSize';
+const baseUrl = 'https://book-store-app-backend.onrender.com/user/cart';
+const getCartSizeEndpoint = 'https://book-store-app-backend.onrender.com/cart/getSize';
 const addToCartEndpoint = '/add/';
 const removeFromCartEndpoint = '/delete/';
 const checkoutEndpoint = '/checkout';
