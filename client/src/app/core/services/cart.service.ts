@@ -12,7 +12,7 @@ import { HttpClient } from '@angular/common/http';
 import { ServerResponse } from '../models/server-response.model';
 import { Cart } from '../models/cart.model';
 
-const baseUrl = 'https://book-store-app-backend.onrender.com/user/cart';
+const baseUrl = 'https://book-store-app-backend.onrender.com';
 const getCartSizeEndpoint = 'https://book-store-app-backend.onrender.com/cart/getSize';
 const addToCartEndpoint = '/add/';
 const removeFromCartEndpoint = '/delete/';

@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 import { ServerResponse } from '../models/server-response.model';
 import { Book } from '../models/book.model';
 
-const domain = 'https://book-store-app-backend.onrender.com/';
+const domain = 'https://book-store-app-backend.onrender.com';
 const getSingleBookEndpoint = domain + '/book/details/';
 const createBookEndpoint = domain + '/book/add';
 const editBookEndpoint = domain + '/book/edit/';
